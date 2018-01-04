@@ -1,1 +1,58 @@
-/* You can add global styles to this file, and also import other style files */
+body {margin: 0;font-family: Roboto, sans-serif;}
+.mainShell{width:100%;}
+.tierShell{position: relative;width:100%}
+.tierInBl{display: block;}
+.tierInBl{display: inline-block;}
+.clearfix{clear: both;}
+.left{float: left;}
+.right{float: right;}
+.alignLeft{text-align: left;align-content: left;align-items: left;}
+.alignCenter{text-align: center;align-content: center;align-items: center;}
+.alignRight{text-align: right;align-content: right;align-items: right;}
+md-card {margin: 2em auto;text-align: left;}
+md-card form#selectLang {position: absolute;right: 0;z-index: 99;top: 0;box-shadow: 0 0 10px 0 rgb(255, 0, 0);}
+.rootLangSelect {background: #fff;text-align: center;margin: 0!important;padding: 20px!important;}
+.done {position: fixed;bottom: 20px;right: 20px;color: #fff;}
+.listShell {width: 100%;position: relative;}
+.rowList {cursor: pointer;margin: 8px;box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, .12), 0 2px 4px rgba(0, 0, 0, .24);background: #fff;}
+.rowList md-grid-tile {transition: all .4s ease-out 50ms;overflow: hidden;word-wrap: normal;white-space: nowrap;}
+.rowList.active, .rowList:hover {background: #d8d8d8;}
+.app {height: 100vh;}
+.mat-icon-20 {font-size: 20px;}
+md-card {margin: 20px;}
+md-toolbar {z-index: 10;}
+md-toolbar-row {-webkit-box-pack: justify;-ms-flex-pack: justify;justify-content: space-between;}
+md-sidenav {width: 40vw;}
+.mat-tab-body-content {height: calc(100vh - 64px - 48px);}
+.mat-sidenav-content {min-height: 500px;}
+.form-full-width {width: 100%;}
+.form-duo-width, .form-full-width {display: inline-block;position: relative;}
+.form-duo-width {width: 49.64%;}
+.form-trio-width {width: 32.5%;}
+.form-quartet-width, .form-trio-width {
+    display: inline-block;
+    position: relative
+}
+
+.form-quartet-width {
+    width: 24.43%
+}
+
+.form-quintet-width {
+    width: 19.5%;
+    display: inline-block;
+    position: relative
+}
+.form-sextet-width {width: 16.33%;}
+.form-septet-width, .form-sextet-width {display: inline-block;position: relative;}
+.form-septet-width {width: 14%;}
+.form-octet-width {width: 12%;}
+.form-nonet-width, .form-octet-width {display: inline-block;position: relative;}
+.form-nonet-width {width: 11%;}
+.form-dectet-width {width: 9.5%;display: inline-block;position: relative;}
+.form-undectet-width {width: 9%;display: inline-block;position: relative;}
+.form-duodectet-width {width: 8%;display: inline-block;position: relative;}
+.formInput {padding: 0 0 0 5px!important;}
+.ng-valid.required, .ng-valid[required] {border-left: 5px solid #42a948;}
+.ng-invalid:not(form) {border-left: 5px solid #a94442;}
+.upload-success md-icon {color: green;}
